@@ -12,6 +12,8 @@
 #include <string.h>
 
 #define MAX_TIMER_COUNT 5U
+#define LED_ON "LED ON"
+#define LED_OFF "LED OFF"
 
 extern char buffer[50];
 extern uint8_t timer_count, buffer_index;
